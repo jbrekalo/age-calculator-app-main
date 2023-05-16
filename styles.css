@@ -196,9 +196,6 @@ main {
 }
 
 .result-number {
-  width: 130px;
-  height: 114px;
-
   /* Heading L */
 
   font-family: "Poppins";
@@ -216,9 +213,6 @@ main {
 }
 
 .result-label {
-  width: 301px;
-  height: 114px;
-
   /* Heading L */
 
   font-family: "Poppins";
@@ -455,9 +449,6 @@ main {
   }
 
   .result-number {
-    width: 70px;
-    height: 62px;
-
     font-family: "Poppins";
     font-style: italic;
     font-weight: 800;
@@ -473,13 +464,10 @@ main {
   }
 
   .result-label {
-    width: 162px;
-    height: 62px;
-
     font-family: "Poppins";
     font-style: italic;
     font-weight: 800;
-    font-size: 52px;
+    font-size: 56px;
     line-height: 110%;
     /* identical to box height, or 62px */
 
