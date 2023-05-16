@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <form class="forms">
+        <section class="form form--day">
+          <label for="day" class="form-label">Day</label>
+          <input
+            type="text"
+            placeholder="DD"
+            class="form-input form-input--day"
+          />
+        </section>
+        <section class="form form--month">
+          <label for="month" class="form-label">Month</label>
+          <input
+            type="text"
+            placeholder="MM"
+            class="form-input form-input--month"
+          />
+        </section>
+        <section class="form form--year">
+          <label for="year" class="form-label">Year</label>
+          <input
+            type="text"
+            placeholder="YYYY"
+            class="form-input form-input--year"
+          />
+        </section>
+        <button type="submit" class="submit-button" value="">
+          <img
+            src="assets/images/icon-arrow.svg"
+            alt="arrow"
+            class="submit-icon"
+          />
+        </button>
+      </form>
+      <section class="results">
+        <section class="result--years">
+          <span class="result-number result-number--year">--</span
+          ><span class="result-label">years</span>
+        </section>
+        <section class="result--months">
+          <span class="result-number result-number--month">--</span
+          ><span class="result-label">months</span>
+        </section>
+        <section class="result--days">
+          <span class="result-number result-number--day">--</span
+          ><span class="result-label">days</span>
+        </section>
+      </section>
+    </main>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
