@@ -281,7 +281,7 @@ main {
   height: 44px;
 }
 
-@media screen and (min-width: 375px) and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   body {
     position: relative;
     width: 375px;
