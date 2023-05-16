@@ -124,7 +124,7 @@ main {
   width: 2rem;
 }
 
-@media screen and (min-width: 375px) and (max-width: 600px) {
+@media screen and (min-width: 375px) and (max-width: 500px) {
   main {
     width: 530px;
     padding: 3em 1.7em;
